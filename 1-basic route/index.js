@@ -1,7 +1,7 @@
 import express from "express";
 const app = express();
 
-const PORT = 2000;
+const PORT = 1000;
 
 // Basic Routing
 app.get("/", (req, res) => {
