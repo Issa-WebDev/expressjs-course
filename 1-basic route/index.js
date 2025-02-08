@@ -1,29 +1,21 @@
+// First Server with Express js 👇🏻
 import express from "express";
-import { users } from "../index.js";
 const app = express();
 
 const PORT = 1000;
 
+// route
 app.get("/", (req, res) => {
-  res.send("HOME PAGE");
+  res.send("<h1> HOME PAGES</h1>");
   res.writeHead(200, "OK", { "Content-Type": "text/html" });
 });
 
 app.get("/about", (req, res) => {
-  res.send("ABOUT PAGE");
+  res.send("<h1>ABOUT PAGES</h1>");
   res.writeHead(200, "OK", { "Content-Type": "text/html" });
 });
 
-app.get("/contact", (req, res) => {
-  res.send("CONTACT PAGE");
-  res.writeHead(200, "OK", { "Content-Type": "text/html" });
-});
 
-app.get("/users", (req, res) => {
-  res.json(users);
-  res.writeHead(200, "OK", { "Content-Type": "application/js" });
-});
-
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+app.listen(PORT, () =>
+  console.log(`Server is running on http://localhost:${PORT}`)
+);
