@@ -1,8 +1,13 @@
 import express from "express";
-import router from "./routes/index.js";
+import path from "path";
 const app = express();
-const port = 1000;
+const port = 1001;
 
-app.use("/site/users", router);
+app.use(express.static("./public"));
 
-app.listen(port, () => console.log(`server is up on http://localhost:${port}`));
+app.get("/", (req, res) => {
+  const file = path.resolve(__dirname, "./public/index.html");
+  res.sendDate(file);
+});
+
+app.listen(port);

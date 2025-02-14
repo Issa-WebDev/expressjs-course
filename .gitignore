@@ -4,4 +4,6 @@
 /4-route/node_modules
 /5-router/node_modules
 /6-route-parameters/node_modules
+/7-controllers/node_modules
+/8-query-string/node_modules
 /test/node_modules
