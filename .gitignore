@@ -3,3 +3,5 @@
 /3-route-callback-in-depth/node_modules
 /4-route/node_modules
 /5-router/node_modules
+/6-route-parameters/node_modules
+/test/node_modules
