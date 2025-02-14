@@ -6,4 +6,8 @@
 /6-route-parameters/node_modules
 /7-controllers/node_modules
 /8-query-string/node_modules
+/9-sending-json/node_modules
+/10-middlewares/node_modules
+/11-serving-static-files/node_modules
+/12-ejs/node_modules
 /test/node_modules

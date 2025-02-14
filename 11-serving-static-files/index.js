@@ -6,9 +6,9 @@ const port = 1001;
 app.use(express.static("./public"));
 
 app.get("/", (req, res) => {
-  // const file = path.resolve(__dirname, "./public/index.html");
-  const file = path.join(process.cwd(), "public/index.html");
-  res.sendDate(file);
+  // const pages = path.resolve(__dirname, "./public/index.html");
+  const pages = path.join(process.cwd(), "./public/index.html");
+  res.sendFile(pages);
 });
 
 app.listen(port);
