@@ -1,0 +1,24 @@
+😂😂 Bien sûr ! Voici une liste d'extensions Chrome qui vont bien t’aider dans ton parcours de futur dev fullstack :
+
+🔥 Extensions indispensables pour un dev fullstack
+🛠️ Outils de développement
+React Developer Tools – Inspecte et débogue tes composants React.
+Redux DevTools – Analyse et débogue le state de tes applications Redux.
+JSON Viewer – Formatte et rend lisibles les réponses JSON des API.
+Postman Interceptor – Pour tester et intercepter des requêtes API directement dans le navigateur.
+Wappalyzer – Identifie les technologies utilisées sur n'importe quel site.
+🌐 Développement web & UI/UX
+ColorZilla – Pipette pour récupérer n’importe quelle couleur sur un site.
+Fonts Ninja – Détecte les polices utilisées sur un site.
+WhatFont – Similaire à Fonts Ninja mais plus rapide.
+Responsive Viewer – Teste facilement ton site sur différentes tailles d’écrans.
+⚡ Productivité & Organisation
+TabNine – Auto-complétion boostée par l’IA pour le code (utile si tu bosses avec VS Code).
+OneTab – Regroupe tes onglets ouverts en une seule page pour éviter la surcharge.
+Daily.dev – Reçois des articles tech et dev directement dans ton nouvel onglet.
+🛡️ Sécurité & Debugging
+EditThisCookie – Gère et modifie facilement les cookies de ton navigateur.
+Lighthouse – Analyse la performance et l’accessibilité de ton site.
+uBlock Origin – Bloque les pubs et trackers pour une navigation plus fluide.
+Avec ça, tu seras bien équipé pour gérer le frontend, le backend et tout ce qui va avec ! 😎🔥
+Tu utilises déjà certaines de ces extensions ?
