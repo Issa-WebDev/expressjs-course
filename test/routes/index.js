@@ -1,18 +1,9 @@
 import express from "express";
+import allUserController from "../controllers/allUserController.js";
+import getIDcontroller from "../controllers/getIDcontroller.js";
 const router = express.Router();
-import {
-  allUsers,
-  createUsers,
-  updateUsers,
-  deleteUsers,
-} from "../controllers/index.js";
 
-router.get("/all", allUsers);
-
-router.post("/create", createUsers);
-
-router.put("/update", updateUsers);
-
-router.delete("/delete", deleteUsers);
+router.get("/all", allUserController);
+router.get("/all/:id", getIDcontroller);
 
 export default router;

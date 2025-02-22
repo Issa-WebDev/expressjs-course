@@ -1,19 +1,22 @@
-const usersData = [
+const data = [
   {
     id: 1,
-    name: "koffi",
-    age: 12,
+    name: "issa",
+    age: 22,
+    job: "dev fullstack",
   },
   {
     id: 2,
-    name: "paul",
-    age: 52,
+    name: "leo",
+    age: 20,
+    job: "artist",
   },
   {
     id: 3,
-    name: "kissa",
-    age: 22,
+    name: "messi",
+    age: 35,
+    job: "foot player",
   },
 ];
 
-export default usersData;
+export default data;

@@ -1,14 +1,10 @@
 import express from "express";
-import path from "path";
+import router from "./routes/index.js";
+
 const app = express();
 const port = 1001;
 
-app.use(express.static("./public"));
+app.use("/users", router);
 
-app.get("/", (req, res) => {
-  // const file = path.resolve(__dirname, "./public/index.html");
-  const file = path.join(process.cwd(), "public/index.html");
-  res.sendDate(file);
-});
 
-app.listen(port);
+app.listen(port, () => console.log("server up"));
